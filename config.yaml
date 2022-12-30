@@ -98,7 +98,8 @@ params:
         waline:
             serverURL: https://hugo-waline-5naa6carj-youkq95.vercel.app/
             lang:
-            pageview:
+            pageview: true
+            reaction: true
             emoji:
                 - https://unpkg.com/@waline/emojis@1.1.0/tw-emoji
             requiredMeta:
