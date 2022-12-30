@@ -1,5 +1,6 @@
 ---
 title: 链接
+slug: "links"
 links:
   - title: 北京大学医学部
     description: 母校。
