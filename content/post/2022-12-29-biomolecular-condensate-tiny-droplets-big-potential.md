@@ -1,10 +1,12 @@
 ---
-categories: "相分离"
+categories: "science"
 date: 2022-12-29
 folder: "content/post"
 public: true
 slug: biomolecular-condensate-tiny-droplets-big-potential
 title: "生物分子凝聚体：小液滴大潜力【商业报道】"
+tags:
+    - "相分离"
 ---
 
 原文：[Biomolecular condensates: tiny droplets with big potential | BioPharma Dive](https://www.biopharmadive.com/news/biomolecular-condensates-biotech-startups/636848/)

@@ -1,6 +1,6 @@
 ---
-title: 关于
-description: 
+title: About
+description: Facts about myself.
 date: '2022-12-30'
 license: CC BY-NC-ND
 lastmod: '2022-12-30'
@@ -10,3 +10,5 @@ menu:
         params:
             icon: user
 ---
+
+

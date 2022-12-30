@@ -12,8 +12,8 @@ languages:
         weight: 1
     zh-cn:
         languageName: 中文
-        title: Kaiqiang's blog
-        description: 
+        title: Kaiqiang 的博客
+        description: 开枪？
         weight: 2
 
 # Change it to your Disqus shortname before using
@@ -67,7 +67,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -96,18 +96,18 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL:
+            serverURL: https://hugo-waline-5naa6carj-youkq95.vercel.app/
             lang:
             pageview:
             emoji:
                 - https://unpkg.com/@waline/emojis@1.0.1/weibo
             requiredMeta:
-                - name
+                - nick
                 - email
                 - url
             locale:
                 admin: Admin
-                placeholder:
+                placeholder: "请填写昵称和邮箱，方便接收评论回复信息哦。"
 
         twikoo:
             envId:
@@ -202,6 +202,18 @@ menu:
           url: https://twitter.com/vagaryplay
           params:
               icon: brand-twitter
+
+        - identifier: linkedin
+          name: Linkedin
+          url: https://www.linkedin.com/in/kaiqiang-you-356906218/
+          params:
+            icon: brand-linkedin
+
+        - identifier: email
+          name: E-Mail
+          url: mailto:youkq@foxmail.com
+          params:
+            icon: email
 
 related:
     includeNewer: true
